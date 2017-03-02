@@ -1,0 +1,13 @@
+Function        max(S)  max(S/deltaS)    max(S/Sref)  Result
+ExpPoly2        -13.59         -9.5 %         -4.0 %   Pass  <== Selected
+DagTest2         11.75          7.7 %          3.5 %   Pass
+ExpPoly3        -13.17         -8.7 %         -3.9 %   Pass
+Dijet3HighMass    5.54          4.0 %          1.6 %   Pass
+Bern4            16.78         12.1 %          5.0 %   Pass
+Bern5            -0.16         -0.1 %         -0.0 %   Pass
+Exponential     -324.60       -261.9 %        -96.2 %   Fail
+DagTest1        160.09        124.0 %         47.5 %   Fail
+Dijet2HighMass  138.98        108.7 %         41.2 %   Fail
+DijetHighMass    78.34         60.8 %         23.2 %   Fail
+Bern3           -92.87        -58.8 %        -27.5 %   Fail
+==> PDF ExpPoly2 is selected
